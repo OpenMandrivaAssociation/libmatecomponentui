@@ -1,12 +1,12 @@
 %define api	2
 %define major	0
-%define libname	%mklibname mateui %{api} %{major}
-%define devname	%mklibname -d mateui
+%define libname	%mklibname matecomponentui %{api} %{major}
+%define devname	%mklibname -d matecomponentui
 
 Name:		libmatecomponentui
 Summary:	Library for compound documents in MATE
 Version:	1.2.0
-Release:	1
+Release:	2
 License:	GPLv2+ and LGPLv2+
 Group:		System/Libraries
 URL:		http://mate-desktop.org
