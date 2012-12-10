@@ -79,3 +79,18 @@ NOCONFIGURE=yes ./autogen.sh
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/*
 
+
+
+%changelog
+* Fri Jul 27 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.4.0-1
++ Revision: 811361
+- new version 1.4.0
+
+* Mon Jun 04 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-2
++ Revision: 802482
+- rebuild with correct lib & dev pkg names
+
+* Thu May 31 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-1
++ Revision: 801642
+- imported package libmatecomponentui
+
